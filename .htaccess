@@ -1,5 +1,7 @@
-Options +FollowSymLinks
 RewriteEngine on
+ErrorDocument 404 http://%{HTTP_HOST}/landing/404
+Options +FollowSymLinks
 RewriteRule ^inicio$ index.php
 RewriteRule ^nosotros$ nosotros.php
 RewriteRule ^contacto$ contacto.php
+RewriteRule ^404$ 404.php

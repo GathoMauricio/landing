@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^inicio$ index.php
+RewriteRule ^nosotros$ nosotros.php
+RewriteRule ^contacto$ contacto.php
